@@ -1,0 +1,881 @@
+================================================================================
+Shiori Game Manager - Third-Party Open Source Licenses
+Shiori 游戏管理器 - 第三方开源协议完整文本
+Shiori ゲームマネージャー - サードパーティオープンソースライセンス
+Shiori 遊戲管理器 - 第三方開源協議完整文本
+================================================================================
+
+Project: Shiori Game Manager (Shiori 游戏管理器)
+Author: bilibili @月が綺麗ですね_
+SPDX: LicenseRef-Shiori-manager
+Date: 2026-06-22
+
+说明 / Notes / 備考:
+  [zh-CN] 本文档包含本软件使用的所有开源库和第三方组件的完整许可证文本。
+         中文翻译仅供参考，法律效力以英文原文为准。
+  [zh-TW] 本文件包含本軟體使用的所有開源庫和第三方元件的完整授權條款文字。
+         中文翻譯僅供參考，法律效力以英文原文為準。
+  [en]    This document contains the full license texts of all open-source libraries
+         and third-party components used by this software.
+  [ja]    この文書には、本ソフトウェアで使用されているすべてのオープンソース
+         ライブラリおよびサードパーティコンポーネントの完全なライセンス条文が
+         含まれています。日本語訳は参考であり、法的効力は英語原文を優先します。
+
+================================================================================
+目次 / Table of Contents / 目次
+================================================================================
+
+1. .NET Runtime & WPF (MIT License)
+2. Microsoft Edge WebView2 (Proprietary with Redistribution Rights)
+3. OpenCvSharp4 (Apache License 2.0)
+4. OpenCV (Apache License 2.0)
+5. System.Text.Json (MIT License)
+
+[zh-CN] 1. .NET 运行时和 WPF（MIT 许可证）
+[zh-CN] 2. Microsoft Edge WebView2（专有，允许再分发）
+[zh-CN] 3. OpenCvSharp4（Apache 许可证 2.0）
+[zh-CN] 4. OpenCV（Apache 许可证 2.0）
+[zh-CN] 5. System.Text.Json（MIT 许可证）
+
+[zh-TW] 1. .NET 執行階段和 WPF（MIT 授權條款）
+[zh-TW] 2. Microsoft Edge WebView2（專有，允許再分發）
+[zh-TW] 3. OpenCvSharp4（Apache 授權條款 2.0）
+[zh-TW] 4. OpenCV（Apache 授權條款 2.0）
+[zh-TW] 5. System.Text.Json（MIT 授權條款）
+
+[ja] 1. .NET ランタイム & WPF（MIT ライセンス）
+[ja] 2. Microsoft Edge WebView2（プロプライエタリ、再配布可能）
+[ja] 3. OpenCvSharp4（Apache License 2.0）
+[ja] 4. OpenCV（Apache License 2.0）
+[ja] 5. System.Text.Json（MIT ライセンス）
+
+================================================================================
+1. MIT License (.NET Runtime & WPF)
+================================================================================
+
+【英文原文 / English Original】
+--------------------------------------------------------------------------------
+The MIT License (MIT)
+
+Copyright (c) .NET Foundation and Contributors
+
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+【中文参考版本（仅供参考）】
+--------------------------------------------------------------------------------
+MIT 许可证
+
+版权所有 (c) .NET 基金会及贡献者
+
+特此授予任何人免费获得本软件及相关文档文件（"软件"）副本的许可，不受限制地处理
+本软件，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或出售
+软件副本的权利，并允许向其提供软件的人员这样做，但须符合以下条件：
+
+上述版权声明和本许可声明应包含在软件的所有副本或主要部分中。
+
+本软件按"现状"提供，不提供任何明示或暗示的保证，包括但不限于对适销性、
+特定用途适用性和不侵权的保证。在任何情况下，作者或版权持有人均不对任何
+索赔、损害或其他责任承担责任，无论是在合同诉讼、侵权诉讼还是其他诉讼中，
+由软件或软件的使用或其他交易引起、产生或与之相关。
+
+【繁体中文参考版本（僅供參考）】
+--------------------------------------------------------------------------------
+MIT 授權條款
+
+版權所有 (c) .NET 基金會及貢獻者
+
+特此授予任何人免費獲得本軟體及相關文件檔案（"軟體"）副本的許可，不受限制地處理
+本軟體，包括但不限於使用、複製、修改、合併、發布、分發、再授權和/或出售
+軟體副本的權利，並允許向其提供軟體的人員這樣做，惟須符合以下條件：
+
+上述版權聲明和本許可聲明應包含在軟體的所有副本或主要部分中。
+
+本軟體按"現狀"提供，不提供任何明示或暗示的保證，包括但不限於對適銷性、
+特定用途適用性和不侵權的保證。在任何情況下，作者或版權持有人均不對任何
+索賠、損害或其他責任承擔責任，無論是在合約訴訟、侵權訴訟還是其他訴訟中，
+由軟體或軟體的使用或其他交易引起、產生或與之相關。
+
+【日本語参考訳（参考のみ）】
+--------------------------------------------------------------------------------
+MIT ライセンス
+
+Copyright (c) .NET Foundation and Contributors
+
+本ソフトウェアおよび関連ドキュメントファイル（以下「本ソフトウェア」）の
+複製を入手したすべての人に対し、本ソフトウェアを無制限に扱うことを無償で
+許可します。これには、本ソフトウェアの使用、複製、改変、結合、公開、配布、
+サブライセンス、および/または販売の権利、ならびに本ソフトウェアの提供を
+受ける個人にこれらを許可する権利が含まれますが、以下の条件に従うものとします。
+
+上記の著作権表示および本許諾表示を、本ソフトウェアのすべての複製または
+実質的な部分に含めるものとします。
+
+本ソフトウェアは「現状のまま」で提供され、商品性、特定目的への適合性、
+および非侵害の保証を含むがこれに限定されない、明示的または黙示的ないかなる
+保証も行われません。いかなる場合も、著作者または著作権者は、本ソフトウェア
+または本ソフトウェアの使用もしくはその他の取引に起因、発生、または関連する
+請求、損害、その他の責任について、契約行為、不法行為、またはその他の法的
+根拠のいかんを問わず、一切の責任を負いません。
+
+================================================================================
+2. Microsoft Edge WebView2 Runtime License
+================================================================================
+
+【许可摘要 / License Summary / ライセンス概要】
+--------------------------------------------------------------------------------
+Copyright (c) Microsoft Corporation
+
+Microsoft Edge WebView2 Runtime 是微软提供的专有软件组件，但允许开发者
+在应用程序中免费集成和重新分发。
+
+Microsoft Edge WebView2 Runtime is a proprietary software component provided by
+Microsoft Corporation that may be freely integrated and redistributed with applications.
+
+Microsoft Edge WebView2 Runtime は、Microsoft Corporation が提供するプロプライエタリ
+ソフトウェアコンポーネントであり、アプリケーションへの統合および再配布が無償で
+許可されています。
+
+Microsoft Edge WebView2 Runtime 是微軟提供的專有軟體元件，但允許開發者
+在應用程式中免費整合和重新分發。
+
+关键条款 / Key Terms / 主な条項 / 關鍵條款：
+1. [zh-CN] 您可以将 WebView2 Runtime 与您的应用程序一起分发。
+   [zh-TW] 您可以將 WebView2 Runtime 與您的應用程式一起分發。
+   [en]    You may distribute WebView2 Runtime with your application.
+   [ja]    お客様は WebView2 Runtime をアプリケーションと共に配布することができます。
+
+2. [zh-CN] 您不得修改、反向工程、反编译或反汇编 WebView2 Runtime。
+   [zh-TW] 您不得修改、反向工程、反編譯或反組譯 WebView2 Runtime。
+   [en]    You may not modify, reverse engineer, decompile, or disassemble WebView2 Runtime.
+   [ja]    お客様は WebView2 Runtime の改変、リバースエンジニアリング、逆コンパイル、
+          または逆アセンブルを行うことはできません。
+
+3. [zh-CN] 您必须遵守所有适用的出口管制法律。
+   [zh-TW] 您必須遵守所有適用的出口管制法律。
+   [en]    You must comply with all applicable export control laws.
+   [ja]    お客様は適用されるすべての輸出管理法を遵守する必要があります。
+
+4. [zh-CN] 微软不提供任何保证，且不承担因使用该软件产生的任何责任。
+   [zh-TW] 微軟不提供任何保證，且不承擔因使用該軟體產生的任何責任。
+   [en]    Microsoft provides no warranties and assumes no liability for use of the software.
+   [ja]    Microsoft は一切の保証を提供せず、本ソフトウェアの使用に起因するいかなる
+          責任も負いません。
+
+完整许可证文本请参阅微软官方网站：
+For the full license text, please refer to the Microsoft official website:
+完全なライセンス条文については、Microsoft 公式ウェブサイトを参照してください：
+完整授權條款文字請參閱微軟官方網站：
+https://developer.microsoft.com/en-us/microsoft-edge/webview2/
+
+================================================================================
+3. Apache License 2.0 (OpenCvSharp4)
+================================================================================
+
+【版权信息 / Copyright / 著作権】
+Copyright (c) 2011-2020 Atsushi Sakai, et al.
+
+【英文原文 / English Original】
+--------------------------------------------------------------------------------
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer, and
+      charge a fee for, acceptance of support, warranty, indemnity, or
+      other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+【中文参考版本（仅供参考）】
+--------------------------------------------------------------------------------
+                                 Apache 许可证
+                           版本 2.0，2004年1月
+                        http://www.apache.org/licenses/
+
+   使用、复制和分发的条款和条件
+
+   1. 定义。
+
+      "许可证"指本文档第1至第9节中定义的使用、复制和分发的条款和条件。
+
+      "许可方"指版权所有者或由版权所有者授权授予许可证的实体。
+
+      "法律实体"指行为实体以及控制该实体、受该实体控制或与该实体共同
+      控制的所有其他实体的联合体。就本定义而言，"控制"指(i)通过合同或
+      其他方式直接或间接导致该实体的方向或管理的权力，或(ii)拥有百分之
+      五十(50%)或以上的已发行股份，或(iii)对该实体的受益所有权。
+
+      "您"（或"您的"）指行使本许可证授予权限的个人或法律实体。
+
+      "源代码"形式指进行修改的首选形式，包括但不限于软件源代码、
+      文档源代码和配置文件。
+
+      "目标代码"形式指由源代码形式机械转换或翻译产生的任何形式，
+      包括但不限于编译的目标代码、生成的文档和转换为其他媒体类型。
+
+      "作品"指在许可证下提供的作者作品，无论是源代码形式还是目标代码
+      形式，如作品中包含或附加的版权声明所示（附录中提供了一个示例）。
+
+      "衍生作品"指基于（或源自）作品的任何作品，无论是源代码形式还是
+      目标代码形式，其中的编辑修订、注释、阐述或其他修改作为一个整体
+      代表原创的作者作品。就本许可证而言，衍生作品不包括与作品及其
+      衍生作品保持可分离或仅链接（或通过名称绑定）到其接口的作品。
+
+      "贡献"指任何作者作品，包括作品的原始版本以及对该作品或其衍生
+      作品的任何修改或添加，由版权所有者或经授权代表版权所有者提交
+      的个人或法律实体有意提交给许可方以包含在作品中。就本定义而言，
+      "提交"指发送给许可方或其代表的任何形式的电子、口头或书面通信，
+      包括但不限于由许可方或代表许可方管理的用于讨论和改进作品的
+      电子邮件列表、源代码控制系统和问题跟踪系统上的通信，但不包括
+      由版权所有者明确标记或以其他方式以书面形式指定为"非贡献"的通信。
+
+      "贡献者"指许可方以及代表其向许可方接收贡献并随后纳入作品中的
+      任何个人或法律实体。
+
+   2. 版权许可授予。在遵守本许可证条款和条件的前提下，每位贡献者
+      特此向您授予永久的、全球性的、非独占的、免费的、免版税的、
+      不可撤销的版权许可，以复制、准备衍生作品、公开展示、公开表演、
+      再许可和分发作品及此类衍生作品的源代码和目标代码形式。
+
+   3. 专利许可授予。在遵守本许可证条款和条件的前提下，每位贡献者
+      特此向您授予永久的、全球性的、非独占的、免费的、免版税的、
+      不可撤销的（除本节所述外）专利许可，以制造、委托制造、使用、
+      要约销售、销售、进口和以其他方式转让作品，其中此类许可仅适用
+      于由该贡献者单独或与其提交的作品的组合必然侵犯的专利权利要求。
+      如果您针对任何实体（包括诉讼中的交叉索赔或反索赔）提起专利诉讼，
+      声称作品或作品中包含的贡献构成直接或间接专利侵权，则根据本许可
+      证授予您的该作品的任何专利许可将在提起诉讼之日终止。
+
+   4. 重新分发。您可以以任何媒介复制和分发作品或其衍生作品的副本，
+      无论是否经过修改，也无论是源代码形式还是目标代码形式，只要您
+      满足以下条件：
+
+      (a) 您必须向作品或衍生作品的任何其他接收者提供本许可证的副本；并且
+
+      (b) 您必须使任何修改过的文件带有明显的声明，说明您更改了文件；并且
+
+      (c) 您必须在分发的任何衍生作品的源代码形式中保留作品源代码形式
+          中的所有版权、专利、商标和归属声明，不包括与衍生作品任何部分
+          无关的声明；并且
+
+      (d) 如果作品在其分发中包含"NOTICE"文本文件，则您分发的任何衍生
+          作品必须在以下至少一个位置包含此类 NOTICE 文件中包含的归属
+          声明的可读副本（不包括与衍生作品任何部分无关的声明）：作为
+          衍生作品一部分分发的 NOTICE 文本文件中；如果与衍生作品一起
+          提供，则在源代码形式或文档中；或者，如果且在此类第三方声明
+          通常出现的地方，在衍生作品生成的显示中。NOTICE 文件的内容
+          仅用于信息目的，不修改许可证。您可以在分发的衍生作品中添加
+          自己的归属声明，与作品中的 NOTICE 文本并列或作为其附录，
+          前提是此类额外的归属声明不能被解释为修改许可证。
+
+      您可以为您的修改添加自己的版权声明，并可以为您的修改的使用、
+      复制或分发，或为此类衍生作品作为一个整体提供额外或不同的许可
+      条款和条件，只要您对作品的使用、复制和分发 otherwise 遵守本
+      许可证中规定的条件。
+
+   5. 贡献提交。除非您明确声明否则，您有意提交以包含在作品中的任何
+      贡献都应在本许可证的条款和条件下，没有任何额外的条款或条件。
+      尽管如此，本文中的任何内容都不应取代或修改您可能与许可方就此类
+      贡献执行的任何单独许可协议的条款。
+
+   6. 商标。本许可证不授予使用许可方的商号、商标、服务标记或产品名称
+      的权限，除非在描述作品来源和重现 NOTICE 文件内容时的合理和惯常
+      使用所必需的范围内。
+
+   7. 免责声明。除非适用法律要求或书面同意，许可方按"现状"基础提供
+      作品（每位贡献者提供其贡献），不提供任何明示或暗示的保证或条件，
+      包括但不限于对所有权、不侵权、适销性或特定用途适用性的任何保证
+      或条件。您全权负责确定使用或重新分发作品的适当性，并承担与本许
+      可证下行使权限相关的任何风险。
+
+   8. 责任限制。在任何情况下，根据任何法律理论，无论是侵权（包括疏忽）、
+      合同还是其他，除非适用法律要求（如故意和严重疏忽行为）或书面同意，
+      任何贡献者均不对您承担损害赔偿责任，包括因本许可证或使用或无法
+      使用作品（包括但不限于商誉损失、停工、计算机故障或故障或任何其他
+      商业损害或损失）而产生的任何直接、间接、特殊、偶然或后果性损害，
+      即使已告知此类贡献者此类损害的可能性。
+
+   9. 接受保证或额外责任。在重新分发作品或其衍生作品时，您可以选择
+      提供并接受支持、保证、赔偿或其他责任义务和/或与本许可证一致的
+      权利，并收取费用。但是，在接受此类义务时，您只能代表您自己并
+      在您自己的责任下行事，而不是代表任何其他贡献者，并且只有在您
+      同意赔偿、辩护并使每位贡献者免受因您接受任何此类保证或额外责任
+      而由此类贡献者承担或被主张的任何责任的情况下。
+
+   条款和条件结束
+
+【繁体中文参考版本（僅供參考）】
+--------------------------------------------------------------------------------
+                                 Apache 授權條款
+                           版本 2.0，2004年1月
+                        http://www.apache.org/licenses/
+
+   使用、複製和分發的條款和條件
+
+   1. 定義。
+
+      "授權條款"指本文件第1至第9節中定義的使用、複製和分發的條款和條件。
+
+      "授權方"指版權所有者或由版權所有者授權授予授權條款的實體。
+
+      "法律實體"指行為實體以及控制該實體、受該實體控制或與該實體共同
+      控制的所有其他實體的聯合體。就本定義而言，"控制"指(i)透過合約或
+      其他方式直接或間接導致該實體的方向或管理的權力，或(ii)擁有百分之
+      五十(50%)或以上的已發行股份，或(iii)對該實體的受益所有權。
+
+      "您"（或"您的"）指行使本授權條款授予權限的個人或法律實體。
+
+      "原始碼"形式指進行修改的首選形式，包括但不限於軟體原始碼、
+      文件原始碼和設定檔。
+
+      "目的碼"形式指由原始碼形式機械轉換或翻譯產生的任何形式，
+      包括但不限於編譯的目的碼、產生的文件和轉換為其他媒體類型。
+
+      "作品"指在授權條款下提供的作者作品，無論是原始碼形式還是目的碼
+      形式，如作品中包含或附加的版權聲明所示（附錄中提供了一個範例）。
+
+      "衍生作品"指基於（或源自）作品的任何作品，無論是原始碼形式還是
+      目的碼形式，其中的編輯修訂、註釋、闡述或其他修改作為一個整體
+      代表原創的作者作品。就本授權條款而言，衍生作品不包括與作品及其
+      衍生作品保持可分離或僅連結（或透過名稱綁定）到其介面的作品。
+
+      "貢獻"指任何作者作品，包括作品的原始版本以及對該作品或其衍生
+      作品的任何修改或添加，由版權所有者或經授權代表版權所有者提交
+      的個人或法律實體有意提交給授權方以包含在作品中。就本定義而言，
+      "提交"指發送給授權方或其代表的任何形式的電子、口頭或書面通訊，
+      包括但不限於由授權方或代表授權方管理的用於討論和改進作品的
+      電子郵件列表、原始碼控制系統和問題追蹤系統上的通訊，但不包括
+      由版權所有者明確標記或以其他方式以書面形式指定為"非貢獻"的通訊。
+
+      "貢獻者"指授權方以及代表其向授權方接收貢獻並隨後納入作品中的
+      任何個人或法律實體。
+
+   2. 版權授權授予。在遵守本授權條款條款和條件的前提下，每位貢獻者
+      特此向您授予永久的、全球性的、非獨佔的、免費的、免版稅的、
+      不可撤銷的版權授權，以複製、準備衍生作品、公開展示、公開表演、
+      再授權和分發作品及此類衍生作品的原始碼和目的碼形式。
+
+   3. 專利授權授予。在遵守本授權條款條款和條件的前提下，每位貢獻者
+      特此向您授予永久的、全球性的、非獨佔的、免費的、免版稅的、
+      不可撤銷的（除本節所述外）專利授權，以製造、委託製造、使用、
+      要約銷售、銷售、進口和以其他方式轉讓作品，其中此類授權僅適用
+      於由該貢獻者單獨或與其提交的作品的組合必然侵犯的專利權利要求。
+      如果您針對任何實體（包括訴訟中的交叉索賠或反索賠）提起專利訴訟，
+      聲稱作品或作品中包含的貢獻構成直接或間接專利侵權，則根據本授權
+      條款授予您的該作品的任何專利授權將在提起訴訟之日終止。
+
+   4. 重新分發。您可以以任何媒介複製和分發作品或其衍生作品的副本，
+      無論是否經過修改，也無論是原始碼形式還是目的碼形式，只要您
+      滿足以下條件：
+
+      (a) 您必須向作品或衍生作品的任何其他接收者提供本授權條款的副本；並且
+
+      (b) 您必須使任何修改過的檔案帶有明顯的聲明，說明您更改了檔案；並且
+
+      (c) 您必須在分發的任何衍生作品的原始碼形式中保留作品原始碼形式
+          中的所有版權、專利、商標和歸屬聲明，不包括與衍生作品任何部分
+          無關的聲明；並且
+
+      (d) 如果作品在其分發中包含"NOTICE"文字檔案，則您分發的任何衍生
+          作品必須在以下至少一個位置包含此類 NOTICE 檔案中包含的歸屬
+          聲明的可讀副本（不包括與衍生作品任何部分無關的聲明）：作為
+          衍生作品一部分分發的 NOTICE 文字檔案中；如果與衍生作品一起
+          提供，則在原始碼形式或文件中；或者，如果且在此類第三方聲明
+          通常出現的地方，在衍生作品產生的顯示中。NOTICE 檔案的內容
+          僅用於資訊目的，不修改授權條款。您可以在分發的衍生作品中添加
+          自己的歸屬聲明，與作品中的 NOTICE 文字並列或作為其附錄，
+          前提是此類額外的歸屬聲明不能被解釋為修改授權條款。
+
+      您可以為您的修改添加自己的版權聲明，並可以為您的修改的使用、
+      複製或分發，或為此類衍生作品作為一個整體提供額外或不同的授權
+      條款和條件，只要您對作品的使用、複製和分發 otherwise 遵守本
+      授權條款中規定的條件。
+
+   5. 貢獻提交。除非您明確聲明否則，您有意提交以包含在作品中的任何
+      貢獻都應在本授權條款的條款和條件下，沒有任何額外的條款或條件。
+      儘管如此，本文中的任何內容都不應取代或修改您可能與授權方就此類
+      貢獻執行的任何單獨授權協議的條款。
+
+   6. 商標。本授權條款不授予使用授權方的商號、商標、服務標記或產品名稱
+      的權限，除非在描述作品來源和重現 NOTICE 檔案內容時的合理和慣常
+      使用所必需的範圍內。
+
+   7. 免責聲明。除非適用法律要求或書面同意，授權方按"現狀"基礎提供
+      作品（每位貢獻者提供其貢獻），不提供任何明示或暗示的保證或條件，
+      包括但不限於對所有權、不侵權、適銷性或特定用途適用性的任何保證
+      或條件。您全權負責確定使用或重新分發作品的適當性，並承擔與本授
+      權條款下行使權限相關的任何風險。
+
+   8. 責任限制。在任何情況下，根據任何法律理論，無論是侵權（包括疏忽）、
+      合約還是其他，除非適用法律要求（如故意和嚴重疏忽行為）或書面同意，
+      任何貢獻者均不對您承擔損害賠償責任，包括因本授權條款或使用或無法
+      使用作品（包括但不限於商譽損失、停工、電腦故障或故障或任何其他
+      商業損害或損失）而產生的任何直接、間接、特殊、偶然或後果性損害，
+      即使已告知此類貢獻者此類損害的可能性。
+
+   9. 接受保證或額外責任。在重新分發作品或其衍生作品時，您可以選擇
+      提供並接受支援、保證、賠償或其他責任義務和/或與本授權條款一致的
+      權利，並收取費用。但是，在接受此類義務時，您只能代表您自己並
+      在您自己的責任下行事，而不是代表任何其他貢獻者，並且只有在您
+      同意賠償、辯護並使每位貢獻者免受因您接受任何此類保證或額外責任
+      而由此類貢獻者承擔或被主張的任何責任的情況下。
+
+   條款和條件結束
+
+【日本語参考訳（参考のみ）】
+--------------------------------------------------------------------------------
+                                 Apache ライセンス
+                           バージョン 2.0、2004年1月
+                        http://www.apache.org/licenses/
+
+   使用、複製および配布に関する条項
+
+   1. 定義。
+
+      「ライセンス」とは、本文書の第1条から第9条で定義される使用、複製
+      および配布の条件を意味します。
+
+      「ライセンサー」とは、著作権者、または著作権者から許諾された
+      ライセンスを付与する権限を有する者を意味します。
+
+      「法人」とは、行為主体と、当該主体を支配する、当該主体に支配される、
+      または当該主体と共通の支配下にあるすべての他の主体の集合体を意味します。
+      本定義において、「支配」とは、(i)契約その他の方法による当該主体の
+      方向性または経営を決定する直接または間接の権限、または(ii)発行済議決権
+      株式の50%以上の所有権、または(iii)当該主体の受益所有権を意味します。
+
+      「お客様」（または「お客様の」）とは、本ライセンスによって付与される
+      権限を行使する個人または法人を意味します。
+
+      「ソース」形式とは、改変を行うための好ましい形式を意味し、
+      ソフトウェアのソースコード、ドキュメントのソース、設定ファイルを
+      含みますが、これらに限定されません。
+
+      「オブジェクト」形式とは、ソース形式の機械的変換または翻訳によって
+      生成されるあらゆる形式を意味し、コンパイルされたオブジェクトコード、
+      生成されたドキュメント、他のメディア形式への変換を含みますが、
+      これらに限定されません。
+
+      「作品」とは、本ライセンスの下で利用可能とされた著作物を意味し、
+      ソース形式かオブジェクト形式かを問わず、作品に含まれるまたは添付
+      される著作権表示（下記の付録に例が示されています）によって示されます。
+
+      「派生作品」とは、作品に基づく（または作品から派生した）著作物を
+      意味し、ソース形式かオブジェクト形式かを問わず、編集上の改訂、注釈、
+      詳細化、その他の改変が全体として著作物としての独自性を有するものを
+      いいます。本ライセンスの目的上、派生作品には、作品およびその派生作品
+      から分離可能な状態にあるもの、または単に作品のインターフェースに
+      リンク（または名称で結合）しているものは含まれません。
+
+      「貢献」とは、作品のオリジナルバージョン、および当該作品またはその
+      派生作品への改変や追加を含むあらゆる著作物で、著作権者によって、または
+      著作権者に代わって提出を許諾された個人もしくは法人によって、作品に
+      組み込まれることを意図してライセンサーに提出されたものを意味します。
+      本定義において、「提出」とは、ライセンサーまたはその代理人に送信される、
+      電子的、口頭または書面によるあらゆる形式の連絡を意味し、作品の議論や
+      改善を目的としてライセンサーによってまたはライセンサーに代わって管理
+      される電子メーリングリスト、ソースコード管理システム、課題追跡システム
+      を通じた連絡を含みますが、著作権者によって「貢献ではない」と明確に
+      表示されるか、その他書面で指定された連絡は含まれません。
+
+      「貢献者」とは、ライセンサー、および貢献がライセンサーに受理され、
+      その後作品に組み込まれた個人または法人を意味します。
+
+   2. 著作権ライセンスの付与。本ライセンスの条件に従い、各貢献者は
+      これによりお客様に対し、永続的、世界的、非独占的、無償で、
+      ロイヤリティフリーの、取消不能な著作権ライセンスを付与し、
+      作品およびその派生作品をソース形式またはオブジェクト形式で複製し、
+      派生作品を作成し、公に表示し、公に実演し、サブライセンスし、
+      配布する権利を認めます。
+
+   3. 特許ライセンスの付与。本ライセンスの条件に従い、各貢献者は
+      これによりお客様に対し、永続的、世界的、非独占的、無償で、
+      ロイヤリティフリーの、取消不能な（本条に定める場合を除く）特許
+      ライセンスを付与し、作品の製造、製造委託、使用、販売の申出、販売、
+      輸入、その他の移転を認めます。ただし、かかるライセンスは、当該貢献者
+      の貢献単独または当該貢献が提出された作品との組合せにより必然的に
+      侵害される特許クレームのみに適用されます。お客様がいずれかの者に
+      対して、作品または作品に組み込まれた貢献が直接または間接の特許侵害
+      を構成すると主張する特許訴訟（訴訟におけるクロスクレームまたは反訴
+      を含む）を提起した場合、本ライセンスに基づいて作品に関してお客様に
+      付与されたすべての特許ライセンスは、当該訴訟の提起日をもって終了
+      します。
+
+   4. 再配布。お客様は、以下の条件を満たす場合に限り、作品またはその
+      派生作品のコピーを、あらゆる媒体で、改変の有無を問わず、ソース
+      形式またはオブジェクト形式で複製および配布することができます。
+
+      (a) お客様は、作品または派生作品の他の受領者に本ライセンスの
+          コピーを提供しなければなりません。
+
+      (b) お客様は、改変されたファイルに、お客様が当該ファイルを変更
+          したことを示す顕著な表示を付けなければなりません。
+
+      (c) お客様は、配布する派生作品のソース形式において、作品のソース
+          形式に含まれるすべての著作権、特許、商標および帰属表示を保持
+          しなければなりません。ただし、派生作品のいかなる部分にも
+          関連しない表示は除きます。
+
+      (d) 作品がその配布物の一部として「NOTICE」テキストファイルを
+          含む場合、お客様が配布する派生作品は、かかるNOTICEファイルに
+          含まれる帰属表示の読み取り可能なコピーを（派生作品のいかなる
+          部分にも関連しない表示を除いて）、以下の少なくとも1つの場所に
+          含めなければなりません：派生作品の一部として配布されるNOTICE
+          テキストファイル内、派生作品と共に提供される場合はソース形式
+          またはドキュメント内、または派生作品によって生成される表示内
+          （かかる第三者の表示が通常表示される場合および場所）。NOTICE
+          ファイルの内容は情報提供のみを目的としており、本ライセンスを
+          変更するものではありません。お客様は、配布する派生作品に独自の
+          帰属表示を、作品のNOTICEテキストと並べて、またはその付録として
+          追加することができます。ただし、かかる追加の帰属表示が本
+          ライセンスを変更するものと解釈されないことを条件とします。
+
+      お客様は、お客様の改変に対して独自の著作権表示を追加することが
+      でき、お客様の改変の使用、複製もしくは配布、またはかかる派生作品
+      全体に対する追加のもしくは異なるライセンス条件を提供することが
+      できます。ただし、お客様による作品の使用、複製および配布が、その
+      他の点で本ライセンスに定める条件に従うことを条件とします。
+
+   5. 貢献の提出。お客様が明示的に別段の定めをしない限り、作品に
+      組み込むためにライセンサーにお客様が意図的に提出した貢献は、
+      追加の条件なしに本ライセンスの条件に従うものとします。上記に
+      かかわらず、本件のいかなる規定も、かかる貢献に関してお客様が
+      ライセンサーと締結した別個のライセンス契約の条件に優先または
+      これを変更するものではありません。
+
+   6. 商標。本ライセンスは、作品の出所を説明しNOTICEファイルの内容を
+      複製するために合理的かつ慣習的に必要な場合を除き、ライセンサーの
+      商号、商標、サービスマーク、または製品名を使用する権限を付与する
+      ものではありません。
+
+   7. 保証の否認。適用法により要求される場合または書面で合意される場合
+      を除き、ライセンサーは作品を（各貢献者はその貢献を）「現状のまま」
+      で提供し、明示的か黙示的かを問わず、権原、非侵害、商品性、特定目的
+      への適合性の保証または条件を含むがこれらに限定されない、いかなる
+      種類の保証または条件も付さないものとします。お客様は、作品の使用
+      または再配布の適切性を判断する単独の責任を負い、本ライセンスに
+      基づく権限の行使に関連するあらゆるリスクを負うものとします。
+
+   8. 責任の制限。不法行為（過失を含む）、契約、その他の法理論のいかん
+      を問わず、適用法により要求される場合（故意および重過失行為等）または
+      書面で合意される場合を除き、いかなる貢献者も、本ライセンスの結果
+      として、または作品の使用もしくは使用不能に起因して生じる損害
+      （営業権の喪失、業務停止、コンピュータの故障または誤動作、その他
+      あらゆる商業的損害または損失を含むがこれらに限定されない、直接的、
+      間接的、特別、付随的または結果的損害を含む）について、たとえ
+      当該貢献者がかかる損害の可能性について知らされていた場合であっても、
+      お客様に対して一切の責任を負わないものとします。
+
+   9. 保証または追加責任の受諾。作品またはその派生作品を再配布する際、
+      お客様は、サポート、保証、補償、その他の責任義務および/または本
+      ライセンスと整合する権利の受諾を提供し、それに対して料金を請求
+      することを選択することができます。ただし、かかる義務を受諾する
+      にあたり、お客様は、お客様ご自身のために、かつお客様の単独の責任
+      においてのみ行為することができ、他のいかなる貢献者を代理するもの
+      ではなく、かつ、お客様がかかる保証または追加責任を受諾したことに
+      起因して貢献者に発生し、または貢献者に対して主張されるいかなる
+      責任についても、各貢献者を補償し、防御し、免責することに同意する
+      場合に限ります。
+
+   条項ここまで
+
+================================================================================
+4. Apache License 2.0 (OpenCV)
+================================================================================
+
+【版权信息 / Copyright / 著作権】
+Copyright (C) 2000-2021, Intel Corporation, et al.
+
+[zh-CN] OpenCvSharp4 底层依赖的 OpenCV 库同样遵循 Apache License 2.0。
+[zh-TW] OpenCvSharp4 底層依賴的 OpenCV 函式庫同樣遵循 Apache License 2.0。
+[en]    The OpenCV library underlying OpenCvSharp4 is also licensed under Apache License 2.0.
+[ja]    OpenCvSharp4 が依存する基盤の OpenCV ライブラリも、同じく Apache License 2.0 に
+       基づいて提供されています。
+
+具体条款同上 / Same terms as Section 3 above.
+具体条款同上 / 具体的な条項は上記第3条と同様。
+具體條款同上。
+
+================================================================================
+5. MIT License (System.Text.Json)
+================================================================================
+
+【版权信息 / Copyright / 著作権】
+Copyright (c) .NET Foundation and Contributors
+
+[zh-CN] 这些 .NET 生态的标准库均遵循 MIT License。
+[zh-TW] 這些 .NET 生態系的標準程式庫均遵循 MIT License。
+[en]    These standard libraries from the .NET ecosystem are licensed under MIT License.
+[ja]    これらの .NET エコシステムの標準ライブラリは、MIT License に基づいて
+       提供されています。
+
+具体条款同第1节 / Same terms as Section 1 above.
+具体条款同第1节 / 具体的な条項は上記第1条と同様。
+具體條款同第1節。
+
+================================================================================
+总结 / Summary / 概要
+================================================================================
+
+本项目（Shiori Manager，C# 技术栈）使用的开源协议特点：
+
+[zh-CN] 本專案（Shiori Manager，C# 技術堆疊）使用的開源協議特點：
+[zh-TW] 本專案（Shiori Manager，C# 技術堆疊）使用的開源協議特點：
+[en]    License characteristics for this project (Shiori Manager, C# tech stack):
+[ja]    本プロジェクト（Shiori Manager、C#技術スタック）のライセンス特性：
+
+1. 宽松许可证（允许商业使用，无传染性）/ Permissive licenses (commercial use allowed):
+   [zh-CN] 寬鬆授權條款（允許商業使用，無傳染性）/ Permissive licenses (commercial use allowed):
+   [zh-TW] 寬鬆授權條款（允許商業使用，無傳染性）
+   [ja]    寛容なライセンス（商用利用可、コピーレフト性なし）：
+   - .NET Runtime / WPF (MIT License)
+   - OpenCvSharp4 (Apache License 2.0)
+   - OpenCV (Apache License 2.0)
+   - System.Text.Json (MIT License)
+
+2. 专有组件但允许自由分发 / Proprietary with redistribution rights:
+   [zh-CN] 專有元件但允許自由分發
+   [zh-TW] 專有元件但允許自由分發
+   [ja]    プロプライエタリだが再配布可能：
+   - Microsoft Edge WebView2 Runtime
+     [zh-CN] * 允许随应用程序免费分发 / Free redistribution with applications
+     [zh-CN] * 禁止反向工程或修改二进制文件 / No reverse engineering or modification
+     [zh-TW] * 允許隨應用程式免費分發
+     [zh-TW] * 禁止反向工程或修改二進位檔案
+     [ja]    * アプリケーションと共に無償再配布可能
+     [ja]    * リバースエンジニアリングやバイナリの改変禁止
+
+3. 需要遵守的义务 / Obligations:
+   [zh-CN] 需要遵守的義務
+   [zh-TW] 需要遵守的義務
+   [ja]    遵守すべき義務：
+   - [zh-CN] 在软件中或文档中包含所有许可证文本
+     [zh-TW] 在軟體中或文件中包含所有授權條款文字
+     [ja]    ソフトウェアまたはドキュメントに全ライセンス条文を含めること
+   - [zh-CN] 保留原始版权声明
+     [zh-TW] 保留原始版權聲明
+     [ja]    元の著作権表示を保持すること
+   - [zh-CN] 如果修改了 OpenCvSharp4 或 OpenCV 本身，需开源修改部分
+     [zh-TW] 如果修改了 OpenCvSharp4 或 OpenCV 本身，需開源修改部分
+     [ja]    OpenCvSharp4 または OpenCV 自体を改変した場合、改変部分の
+            オープンソース化が必要
+
+================================================================================
+重要声明 / Important Notice / 重要なお知らせ
+================================================================================
+
+1. [zh-CN] 本文档中的中文翻译仅供参考，不具有法律效力。如有争议，以英文原文为准。
+   [zh-TW] 本文件中的中文翻譯僅供參考，不具有法律效力。如有爭議，以英文原文為準。
+   [en]    Chinese translations are for reference only and not legally binding.
+           In case of dispute, the English original shall prevail.
+   [ja]    日本語訳は参考であり、法的拘束力を持ちません。紛争が生じた場合は、
+          英語の原文を優先します。
+
+2. [zh-CN] 建议在发布商业软件前咨询专业律师，确保完全符合所有许可证要求。
+   [zh-TW] 建議在發布商業軟體前諮詢專業律師，確保完全符合所有授權條款要求。
+   [en]    Consult a professional lawyer before releasing commercial software
+           to ensure full compliance with all license requirements.
+   [ja]    商用ソフトウェアを公開する前に、すべてのライセンス要件を完全に
+          満たしていることを確認するため、専門の法律家に相談することを
+          お勧めします。
+
+3. [zh-CN] 开源许可证可能会更新，请定期检查各项目的最新许可证版本。
+   [zh-TW] 開源授權條款可能會更新，請定期檢查各專案的最新授權條款版本。
+   [en]    Open source licenses may be updated; check the latest versions periodically.
+   [ja]    オープンソースライセンスは更新される可能性があります。各プロジェクトの
+          最新のライセンスバージョンを定期的に確認してください。
+
+4. [zh-CN] 本文档不构成法律建议，仅作为技术参考。
+   [zh-TW] 本文件不構成法律建議，僅作為技術參考。
+   [en]    This document does not constitute legal advice and is for technical reference only.
+   [ja]    本文書は法的助言を構成するものではなく、技術的な参考としてのみ
+          提供されています。
+
+================================================================================
+文档结束 / End of Document / 文書終わり
+================================================================================
