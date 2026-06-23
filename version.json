@@ -4,6 +4,6 @@
     "1.0.0"
   ],
   "pubDate": "2026-06-23",
-  "changelog": "【1.0.1】\n接入LEGUI，支持打开其他引擎的游戏，可以打开需要使用日语环境的游戏\n修复了一些bug，优化了一些视觉问题,
+  "changelog": "【1.0.1】\n接入LEGUI，支持打开其他引擎的游戏，可以打开需要使用日语环境的游戏\n修复了一些bug，优化了一些视觉问题",
   "downloadUrl": "https://github.com/1145141919810TONNY/Shiori-manager/releases/latest"
 }
