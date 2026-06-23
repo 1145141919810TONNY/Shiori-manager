@@ -30,24 +30,28 @@ Date: 2026-06-22
 3. OpenCvSharp4 (Apache License 2.0)
 4. OpenCV (Apache License 2.0)
 5. System.Text.Json (MIT License)
+6. Locale Emulator (LGPL-3.0 License)
 
 [zh-CN] 1. .NET 运行时和 WPF（MIT 许可证）
 [zh-CN] 2. Microsoft Edge WebView2（专有，允许再分发）
 [zh-CN] 3. OpenCvSharp4（Apache 许可证 2.0）
 [zh-CN] 4. OpenCV（Apache 许可证 2.0）
 [zh-CN] 5. System.Text.Json（MIT 许可证）
+[zh-CN] 6. Locale Emulator（LGPL-3.0 许可证）
 
 [zh-TW] 1. .NET 執行階段和 WPF（MIT 授權條款）
 [zh-TW] 2. Microsoft Edge WebView2（專有，允許再分發）
 [zh-TW] 3. OpenCvSharp4（Apache 授權條款 2.0）
 [zh-TW] 4. OpenCV（Apache 授權條款 2.0）
 [zh-TW] 5. System.Text.Json（MIT 授權條款）
+[zh-TW] 6. Locale Emulator（LGPL-3.0 授權條款）
 
 [ja] 1. .NET ランタイム & WPF（MIT ライセンス）
 [ja] 2. Microsoft Edge WebView2（プロプライエタリ、再配布可能）
 [ja] 3. OpenCvSharp4（Apache License 2.0）
 [ja] 4. OpenCV（Apache License 2.0）
 [ja] 5. System.Text.Json（MIT ライセンス）
+[ja] 6. Locale Emulator（LGPL-3.0 ライセンス）
 
 ================================================================================
 1. MIT License (.NET Runtime & WPF)
@@ -799,6 +803,212 @@ Copyright (c) .NET Foundation and Contributors
 具體條款同第1節。
 
 ================================================================================
+6. GNU Lesser General Public License v3.0 (Locale Emulator)
+================================================================================
+
+【项目信息 / Project Info / プロジェクト情報】
+项目名称：Locale Emulator
+项目地址：https://github.com/xupefei/Locale-Emulator
+使用版本：v2.5.0.1
+版权归属：Copyright (c) xupefei and Locale Emulator contributors
+许可证：LGPL-3.0 (GNU Lesser General Public License v3.0)
+
+[zh-CN] 使用方式：本项目通过独立进程调用 LEProc.exe 启动游戏，属于 LGPL-3.0
+          允许的 "mere aggregation"（单纯聚合），不触发 copyleft 传染条款。
+          所有 LEGUI/ 文件夹中的文件均使用官方开源 Release 版本，未经任何修改，
+          未进行任何逆向工程。LEProc.exe 及配套 DLL 文件在 LEGUI/ 文件夹中
+          独立分发，用户可自行替换。
+[zh-TW] 使用方式：本專案透過獨立行程呼叫 LEProc.exe 啟動遊戲，屬於 LGPL-3.0
+          允許的 "mere aggregation"（單純聚合），不觸發 copyleft 傳染條款。
+          所有 LEGUI/ 資料夾中的檔案均使用官方開源 Release 版本，未經任何修改，
+          未進行任何逆向工程。LEProc.exe 及配套 DLL 檔案在 LEGUI/ 資料夾中
+          獨立分發，使用者可自行替換。
+[en]    Usage: This project invokes LEProc.exe as a separate process to launch games,
+         which constitutes "mere aggregation" under LGPL-3.0 and does not trigger
+         copyleft provisions. All files in the LEGUI/ folder are from the official
+         open-source release, unmodified, and have not been reverse-engineered.
+         LEProc.exe and companion DLLs are distributed separately in the LEGUI/
+         folder; users may replace them at will.
+[ja]    使用方法：本プロジェクトは LEProc.exe を個別プロセスとして呼び出して
+         ゲームを起動します。これは LGPL-3.0 の「mere aggregation」（単純な集約）に
+         該当し、コピーレフト条項は適用されません。LEGUI/ フォルダ内の全ファイルは
+         公式オープンソースリリース版をそのまま使用し、一切の改変およびリバース
+         エンジニアリングを行っていません。LEProc.exe および関連 DLL は LEGUI/
+         フォルダに個別に配布され、ユーザーは自由に置き換えることができます。
+
+================================================================================
+LGPL-3.0 许可证原文（英文 / English Original）
+================================================================================
+
+                   GNU LESSER GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+
+  This version of the GNU Lesser General Public License incorporates
+the terms and conditions of version 3 of the GNU General Public
+License, supplemented by the additional permissions listed below.
+
+  0. Additional Definitions.
+
+  As used herein, "this License" refers to version 3 of the GNU Lesser
+General Public License, and the "GNU GPL" refers to version 3 of the GNU
+General Public License.
+
+  "The Library" refers to a covered work governed by this License,
+other than an Application or a Combined Work as defined below.
+
+  An "Application" is any work that makes use of an interface provided
+by the Library, but which is not otherwise based on the Library.
+
+  A "Combined Work" is a work produced by combining or linking an
+Application with the Library.
+
+  The "Minimal Corresponding Source" for a Combined Work means the
+Corresponding Source for the Combined Work, excluding any source code
+for portions of the Combined Work that, considered in isolation, are
+based on the Application, and not on the Linked Version.
+
+  The "Corresponding Application Code" for a Combined Work means the
+object code and/or source code for the Application, including any data
+and utility programs needed for reproducing the Combined Work from the
+Application, but excluding the System Libraries of the Combined Work.
+
+  1. Exception to Section 3 of the GNU GPL.
+
+  You may convey a covered work under sections 3 and 4 of this License
+without being bound by section 3 of the GNU GPL.
+
+  2. Conveying Modified Versions.
+
+  If you modify a copy of the Library, and, in your modifications, a
+facility refers to a function or data to be supplied by an Application
+that uses the facility (other than as an argument passed when the
+facility is invoked), then you may convey a copy of the modified
+version:
+
+   a) under this License, provided that you make a good faith effort to
+   ensure that, in the event an Application does not supply the
+   function or data, the facility still operates, and performs
+   whatever part of its purpose remains meaningful, or
+
+   b) under the GNU GPL, with none of the additional permissions of
+   this License applicable to that copy.
+
+  3. Object Code Incorporating Material from Library Header Files.
+
+  The object code form of an Application may incorporate material from
+a header file that is part of the Library.  You may convey such object
+code under terms of your choice, provided that, if the incorporated
+material is not limited to numerical parameters, data structure
+layouts and accessors, or small macros, inline functions and templates
+(ten or fewer lines in length), you do both of the following:
+
+   a) Give prominent notice with each copy of the object code that the
+   Library is used in it and that the Library and its use are
+   covered by this License.
+
+   b) Accompany the object code with a copy of the GNU GPL and this license
+   document.
+
+  4. Combined Works.
+
+  You may convey a Combined Work under terms of your choice that,
+taken together, effectively do not restrict modification of the
+portions of the Library contained in the Combined Work and reverse
+engineering for debugging such modifications, if you also do each of
+the following:
+
+   a) Give prominent notice with each copy of the Combined Work that
+   the Library is used in it and that the Library and its use are
+   covered by this License.
+
+   b) Accompany the Combined Work with a copy of the GNU GPL and this license
+   document.
+
+   c) For a Combined Work that displays copyright notices during
+   execution, include the copyright notice for the Library among
+   these notices, as well as a reference directing the user to the
+   copies of the GNU GPL and this license document.
+
+   d) Do one of the following:
+       0) Convey the Minimal Corresponding Source under this License.
+       1) Use a suitable shared library mechanism for linking.
+
+  5. Combined Libraries.
+
+  You may place library facilities that are a work based on the
+Library side by side in a single library together with other library
+facilities, and convey such a combined library under terms of your
+choice, if you also convey the uncombined form under this License.
+
+  6. Revised Versions of the GNU Lesser General Public License.
+
+  The Free Software Foundation may publish revised and/or new versions
+of the GNU Lesser General Public License from time to time.
+
+  7. Disclaimer of Warranty.
+
+  There is no warranty for the Library, to the extent permitted by
+applicable law. Except when otherwise stated in writing the copyright
+holders and/or other parties provide the Library "as is" without
+warranty of any kind.
+
+  8. Limitation of Liability.
+
+  In no event unless required by applicable law or agreed to in writing
+will any copyright holder, or any other party who modifies and/or
+conveys the Library as permitted above, be liable to you for damages.
+
+完整 GPL-3.0 原文：https://www.gnu.org/licenses/gpl-3.0.html
+完整 LGPL-3.0 原文：https://www.gnu.org/licenses/lgpl-3.0.html
+
+================================================================================
+LGPL-3.0 中文参考（仅供参考，法律效力以英文原文为准）
+================================================================================
+
+                   GNU 宽通用公共许可证
+                       第3版，2007年6月29日
+
+ 版权所有 (C) 2007 自由软件基金会 <https://fsf.org/>
+
+  本版本的 GNU 宽通用公共许可证（LGPL）包含了 GNU 通用公共许可证（GPL）
+第3版的条款和条件，并补充了以下额外权限。
+
+  0. 附加定义。
+  "库"指受本许可证管辖的涵盖作品。
+  "应用"指使用库提供的接口但并非基于库的任何作品。
+  "组合作品"指通过组合或链接应用与库而产生的作品。
+
+  1. GPL 第3条的例外。
+  您可以按照本许可证第3条和第4条传递涵盖作品，而无需受GPL第3条约束。
+
+  2. 传递修改版本。
+  如果您修改了库的副本，且在修改中某个功能引用了由应用提供的函数或数据，
+  则您可以在本许可证下或GPL下传递修改版本，需满足相应条件。
+
+  3. 包含库头文件材料的对象代码。
+  应用的对象代码可包含库头文件中的材料。您可按自选条款传递此类对象代码，
+  但需在显著位置注明库的使用并附带许可证副本。
+
+  4. 组合作品。
+  您可按自选条款传递组合作品，但需满足以下条件：附带显著通知、许可证副本、
+  以及在特定情况下提供源码或使用合适的共享库机制。
+
+  5. 组合库。
+  可将基于库的库功能与其他库并排放置，按自选条款传递，同时传递未组合形式。
+
+  6. GNU LGPL 的修订版本。
+  自由软件基金会可能发布修订版/新版。
+
+  7. 免责声明。库不提供任何形式的保证。
+
+  8. 责任限制。版权持有人不对因使用库造成的损害负责。
+
+================================================================================
 总结 / Summary / 概要
 ================================================================================
 
@@ -830,7 +1040,25 @@ Copyright (c) .NET Foundation and Contributors
      [ja]    * アプリケーションと共に無償再配布可能
      [ja]    * リバースエンジニアリングやバイナリの改変禁止
 
-3. 需要遵守的义务 / Obligations:
+3. 弱传染性许可证（独立进程调用，不触发 copyleft）/ Weak copyleft (mere aggregation):
+   [zh-CN] 弱傳染性授權條款（獨立行程呼叫，不觸發 copyleft）
+   [zh-TW] 弱傳染性授權條款（獨立行程呼叫，不觸發 copyleft）
+   [ja]    弱いコピーレフト（独立プロセス呼び出し、伝播せず）：
+   - Locale Emulator (LGPL-3.0 License)
+     [zh-CN] * 通过独立进程调用 LEProc.exe，属于 mere aggregation，不触发传染
+     [zh-CN] * 使用官方开源 Release 版本，未经修改，未进行逆向工程
+     [zh-CN] * 二进制文件独立存放于 LEGUI/ 文件夹，用户可自行替换
+     [zh-CN] * 须附带 LGPL-3.0 及 GPL-3.0 许可证文本
+     [zh-TW] * 透過獨立行程呼叫 LEProc.exe，屬於 mere aggregation，不觸發傳染
+     [zh-TW] * 使用官方開源 Release 版本，未經修改，未進行逆向工程
+     [zh-TW] * 二進位檔案獨立存放於 LEGUI/ 資料夾，使用者可自行替換
+     [zh-TW] * 須附帶 LGPL-3.0 及 GPL-3.0 授權條款文字
+     [ja]    * LEProc.exe を独立プロセスとして呼び出し、mere aggregation に該当
+     [ja]    * 公式オープンソースリリース版を使用、未改変、リバースエンジニアリングなし
+     [ja]    * バイナリファイルは LEGUI/ フォルダに独立して格納、ユーザーによる置換可能
+     [ja]    * LGPL-3.0 および GPL-3.0 のライセンス条文を同梱すること
+
+4. 需要遵守的义务 / Obligations:
    [zh-CN] 需要遵守的義務
    [zh-TW] 需要遵守的義務
    [ja]    遵守すべき義務：
@@ -844,6 +1072,13 @@ Copyright (c) .NET Foundation and Contributors
      [zh-TW] 如果修改了 OpenCvSharp4 或 OpenCV 本身，需開源修改部分
      [ja]    OpenCvSharp4 または OpenCV 自体を改変した場合、改変部分の
             オープンソース化が必要
+   - [zh-CN] 分发 Locale Emulator 二进制文件时须附带 LGPL-3.0 和 GPL-3.0 全文
+     [zh-TW] 分發 Locale Emulator 二進位檔案時須附帶 LGPL-3.0 和 GPL-3.0 全文
+     [ja]    Locale Emulator のバイナリ配布時には LGPL-3.0 および GPL-3.0 の
+            全文を同梱すること
+   - [zh-CN] 允许用户替换 LEGUI/ 文件夹中的文件（LGPL-3.0 要求）
+     [zh-TW] 允許使用者替換 LEGUI/ 資料夾中的檔案（LGPL-3.0 要求）
+     [ja]    ユーザーが LEGUI/ フォルダ内のファイルを置換できること（LGPL-3.0 要件）
 
 ================================================================================
 重要声明 / Important Notice / 重要なお知らせ
