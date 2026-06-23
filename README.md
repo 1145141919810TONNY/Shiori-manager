@@ -14,7 +14,9 @@ Shiori教学网页：https://1145141919810tonny.github.io/Shioriteaching/
   - 目前已测试可正常启动 Kirikiri2 / KirikiriZ / NEKOPACK 引擎的游戏；大多数 KirikiriZ 游戏直接点击「启动」即可
   - 以下日版正版游戏已通过测试，可以正常启动（一般情况下其他的正版游戏也可以正常启动）：
     > 3days（NEKOPACK）
+    > 
     > 少女神域∽少女天獄（Kirikiri2）
+    > 
     > まいてつ（Kirikiri2）
   - 需要日语环境的游戏，点击「使用日语环境打开」按钮启动；不需要的，直接点击「启动」即可
   - 定位其他引擎的游戏时，请直接定位到指定的exe，而不是文件夹。
