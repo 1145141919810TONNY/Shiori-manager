@@ -1,6 +1,6 @@
 Shiori 游戏管理器 使用协议（LicenseRef-Shiori-manager）
-生效日期：2026年6月23日
-版本：V1.0.1
+生效日期：2026年6月26日
+版本：V1.0.2
 
 Copyright © bilibili月が綺麗ですね_ All Rights Reserved.
 
@@ -122,6 +122,7 @@ SPDX-License-Identifier: LicenseRef-Shiori-manager
 - OpenCV (Apache License 2.0)
 - System.Text.Json (MIT License)
 - Locale Emulator (LGPL-3.0 License，独立进程调用，未修改文件，未逆向工程，仅使用官方开源 Release 版本，LEGUI/ 文件夹独立分发)
+- Kawazu (MIT License，日语形态素分析，用于游戏名称日文汉字读音排序)
 
 8.2 第三方协议文档保留义务
 在分发、发布或部署本软件时，必须保留第三方开源协议的完整文本（详见 OPEN_SOURCE_LICENSES.txt）。
@@ -254,6 +255,7 @@ SPDX-License-Identifier: LicenseRef-Shiori-manager
 - OpenCV (Apache License 2.0)
 - System.Text.Json (MIT License)
 - Locale Emulator (LGPL-3.0 License，獨立行程呼叫，未修改檔案，未逆向工程，僅使用官方開源 Release 版本，LEGUI/ 資料夾獨立分發)
+- Kawazu (MIT License，日語形態素分析，用於遊戲名稱日文漢字讀音排序)
 
 8.2 第三方協議文件保留義務
 在分發、發布或部署本軟體時，必須保留第三方開源協議的完整文字（詳見 OPEN_SOURCE_LICENSES.txt）。
@@ -278,7 +280,7 @@ SPDX-License-Identifier: LicenseRef-Shiori-manager
 
 Shiori Game Manager License Agreement (LicenseRef-Shiori-manager)
 Effective Date: June 22, 2026
-Version: V1.0
+Version: V1.0.2
 
 Copyright © bilibili月が綺麗ですね_ All Rights Reserved.
 
@@ -425,6 +427,7 @@ The following third-party open-source libraries were used in the development of 
 - OpenCV (Apache License 2.0)
 - System.Text.Json (MIT License)
 - Locale Emulator (LGPL-3.0 License, invoked as separate process, no modifications, no reverse engineering, using official open-source release only, distributed independently in LEGUI/ folder)
+- Kawazu (MIT License, Japanese morphological analyzer, used for sorting game names by Japanese kanji readings)
 
 8.2 Obligation to Retain Third-Party License Documentation
 When distributing, publishing, or deploying the Software, the complete text of third-party
@@ -594,6 +597,7 @@ SPDX-License-Identifier: LicenseRef-Shiori-manager
 - OpenCV (Apache License 2.0)
 - System.Text.Json (MIT License)
 - Locale Emulator (LGPL-3.0 License、個別プロセスとして呼び出し、ファイル未改変、リバースエンジニアリングなし、公式オープンソースリリース版のみ使用、LEGUI/ フォルダに独立配布)
+- Kawazu (MIT License、日本語形態素解析、ゲーム名の日本語漢字読みによる並べ替えに使用)
 
 8.2 サードパーティライセンス文書の保持義務
 本ソフトウェアを配布、公開、または展開する際は、サードパーティオープンソースライセンスの
