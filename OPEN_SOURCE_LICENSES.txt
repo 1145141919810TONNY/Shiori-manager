@@ -31,6 +31,9 @@ Date: 2026-06-22
 4. OpenCV (Apache License 2.0)
 5. System.Text.Json (MIT License)
 6. Locale Emulator (LGPL-3.0 License)
+7. Kawazu / Japanese Morphological Analyzer (MIT License)
+8. LibNMeCab / MeCab .NET Port (BSD 2-Clause / LGPL)
+9. IPA 辞書 / Mecab IPA Dictionary (BSD-style)
 
 [zh-CN] 1. .NET 运行时和 WPF（MIT 许可证）
 [zh-CN] 2. Microsoft Edge WebView2（专有，允许再分发）
@@ -38,6 +41,9 @@ Date: 2026-06-22
 [zh-CN] 4. OpenCV（Apache 许可证 2.0）
 [zh-CN] 5. System.Text.Json（MIT 许可证）
 [zh-CN] 6. Locale Emulator（LGPL-3.0 许可证）
+[zh-CN] 7. Kawazu / 日语形态素分析（MIT 许可证）
+[zh-CN] 8. LibNMeCab / MeCab .NET 移植（BSD 2-Clause / LGPL）
+[zh-CN] 9. IPA 辞書 / MeCab IPA 词典（BSD-style）
 
 [zh-TW] 1. .NET 執行階段和 WPF（MIT 授權條款）
 [zh-TW] 2. Microsoft Edge WebView2（專有，允許再分發）
@@ -45,6 +51,9 @@ Date: 2026-06-22
 [zh-TW] 4. OpenCV（Apache 授權條款 2.0）
 [zh-TW] 5. System.Text.Json（MIT 授權條款）
 [zh-TW] 6. Locale Emulator（LGPL-3.0 授權條款）
+[zh-TW] 7. Kawazu / 日語形態素分析（MIT 授權條款）
+[zh-TW] 8. LibNMeCab / MeCab .NET 移植（BSD 2-Clause / LGPL）
+[zh-TW] 9. IPA 辞書 / MeCab IPA 辭典（BSD-style）
 
 [ja] 1. .NET ランタイム & WPF（MIT ライセンス）
 [ja] 2. Microsoft Edge WebView2（プロプライエタリ、再配布可能）
@@ -52,6 +61,9 @@ Date: 2026-06-22
 [ja] 4. OpenCV（Apache License 2.0）
 [ja] 5. System.Text.Json（MIT ライセンス）
 [ja] 6. Locale Emulator（LGPL-3.0 ライセンス）
+[ja] 7. Kawazu / 日本語形態素解析（MIT ライセンス）
+[ja] 8. LibNMeCab / MeCab .NET 移植（BSD 2-Clause / LGPL）
+[ja] 9. IPA 辞書 / MeCab IPA 辞書（BSD-style）
 
 ================================================================================
 1. MIT License (.NET Runtime & WPF)
@@ -1009,10 +1021,107 @@ LGPL-3.0 中文参考（仅供参考，法律效力以英文原文为准）
   8. 责任限制。版权持有人不对因使用库造成的损害负责。
 
 ================================================================================
-总结 / Summary / 概要
+7. MIT License (Kawazu - Japanese Morphological Analyzer)
 ================================================================================
 
-本项目（Shiori Manager，C# 技术栈）使用的开源协议特点：
+【版权信息 / Copyright / 著作権】
+Copyright (c) 2020 Cutano
+
+[zh-CN] Kawazu 是一个 C# 库，用于将日语句子转换为平假名、片假名或罗马字，
+         支持振假名和送假名模式。本项目使用 Kawazu 进行游戏名称中日文汉字的
+         读音排序。
+[zh-TW] Kawazu 是一個 C# 函式庫，用於將日語句子轉換為平假名、片假名或羅馬字，
+         支援振假名和送假名模式。本專案使用 Kawazu 進行遊戲名稱中日文漢字的
+         讀音排序。
+[en]    Kawazu is a C# library for converting Japanese sentences into hiragana,
+         katakana, or romaji, supporting furigana and okurigana modes.
+         This project uses Kawazu for sorting game names by Japanese kanji readings.
+[ja]    Kawazu は日本語の文章をひらがな、カタカナ、またはローマ字に変換する
+        C# ライブラリで、振り仮名および送り仮名モードに対応しています。
+        本プロジェクトでは、ゲーム名の日本語漢字読みによる並べ替えに使用しています。
+
+项目地址 / Project URL：https://github.com/Cutano/Kawazu
+许可证类型 / License Type：MIT License
+具体条款同第1节 / Same terms as Section 1 above.
+具体条款同第1节 / 具体的な条項は上記第1条と同様。
+具體條款同第1節。
+
+================================================================================
+8. BSD / LGPL Dual License (LibNMeCab - MeCab .NET Port)
+================================================================================
+
+【版权信息 / Copyright / 著作権】
+[zh-CN] LibNMeCab 是 NMeCab 的 .NET 运行时库，NMeCab 是 MeCab（京都大学
+         信息学研究科与日本电信电话株式会社通信科学基础研究所共同开发的
+         开源形态素分析引擎）的 .NET 移植版本。
+         本项目通过 Kawazu 间接使用 LibNMeCab 进行日语形态素分析。
+[zh-TW] LibNMeCab 是 NMeCab 的 .NET 執行階段函式庫，NMeCab 是 MeCab（京都大學
+         資訊學研究科與日本電信電話株式會社通訊科學基礎研究所共同開發的
+         開源形態素分析引擎）的 .NET 移植版本。
+         本專案透過 Kawazu 間接使用 LibNMeCab 進行日語形態素分析。
+[en]    LibNMeCab is the .NET runtime library for NMeCab, a .NET port of MeCab,
+         an open-source morphological analysis engine jointly developed by the
+         Graduate School of Informatics, Kyoto University and NTT Communication
+         Science Laboratories. This project uses LibNMeCab indirectly through
+         Kawazu for Japanese morphological analysis.
+[ja]    LibNMeCab は NMeCab の .NET ランタイムライブラリです。NMeCab は
+        MeCab（京都大学情報学研究科と日本電信電話株式会社コミュニケーション
+        科学基礎研究所が共同開発したオープンソース形態素解析エンジン）の
+        .NET 移植版です。本プロジェクトでは Kawazu を通じて間接的に
+        LibNMeCab を日本語形態素解析に使用しています。
+
+许可证类型 / License Type：
+  BSD 2-Clause License 或 / or / または GNU Lesser General Public License (LGPL)
+  本项目选择 BSD License 条款进行使用。
+  This project elects to use the BSD License terms.
+  本プロジェクトでは BSD License の条項を選択しています。
+
+【BSD 2-Clause License 原文 / English Original】
+
+Copyright (c) NMeCab Project
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+================================================================================
+9. IPA 辞書 (Mecab IPA Dictionary)
+================================================================================
+
+【版权信息 / Copyright / 著作権】
+Copyright (c) 2007 IPA 情報処理推進機構 (Information-technology Promotion Agency, Japan)
+
+[zh-CN] 本项目通过 LibNMeCab.IpaDicBin 间接使用 IPA 辞書进行日语汉字到读音的转换。
+        IPA 辞書遵循 BSD-style license。
+[zh-TW] 本專案透過 LibNMeCab.IpaDicBin 間接使用 IPA 辞書進行日語漢字到讀音的轉換。
+        IPA 辞書遵循 BSD-style license。
+[en]    This project uses the IPA dictionary indirectly through LibNMeCab.IpaDicBin
+         for Japanese kanji-to-reading conversion. The IPA dictionary is distributed
+         under a BSD-style license.
+[ja]    本プロジェクトでは LibNMeCab.IpaDicBin を通じて間接的に IPA 辞書を
+        日本語漢字から読みへの変換に使用しています。IPA 辞書は BSD-style license
+        に基づいて提供されています。
+
+================================================================================
+总结 / Summary / 概要
 
 [zh-CN] 本專案（Shiori Manager，C# 技術堆疊）使用的開源協議特點：
 [zh-TW] 本專案（Shiori Manager，C# 技術堆疊）使用的開源協議特點：
@@ -1027,6 +1136,9 @@ LGPL-3.0 中文参考（仅供参考，法律效力以英文原文为准）
    - OpenCvSharp4 (Apache License 2.0)
    - OpenCV (Apache License 2.0)
    - System.Text.Json (MIT License)
+   - Kawazu / 日语形态素分析 (MIT License)
+   - LibNMeCab / MeCab .NET 移植 (BSD 2-Clause)
+   - IPA 日本語辞書 (BSD-style)
 
 2. 专有组件但允许自由分发 / Proprietary with redistribution rights:
    [zh-CN] 專有元件但允許自由分發
