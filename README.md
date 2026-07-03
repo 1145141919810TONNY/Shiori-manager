@@ -5,6 +5,31 @@ Shiori引擎本体：https://github.com/1145141919810TONNY/webgalgameengine
 
 Shiori教学网页：https://1145141919810tonny.github.io/Shioriteaching/
 
+# V1.0.3 更新内容（2026/7/3）
+## 新增功能
+- 增加了“更新游戏信息”按钮，用于手动更新游戏信息（名称、简介、封面等），本引擎游戏专属功能
+- 增加了其他引擎的标记功能，用于标记其他引擎的游戏，非本引擎游戏专属功能（注意：仅标记，不做任何处理）
+
+## 优化
+- 将切换语言的文字样式对比度变高
+
+## 已实测游戏
+经过实际测试的游戏，Shiori-manager 可以正常打开以下游戏（及其引擎名称）：
+- 3days（NEKOPACK）
+- 少女神域∽少女天獄（Kirikiri2）
+- 少女神域∽少女天獄（KirikiriZ/本人移植版本）
+- まいてつ（Kirikiri2）
+- 千恋*万花（KirikiriZ）
+- 沙耶の唄（自研定制引擎）
+- Adolescent Santa Claus（自研定制引擎，也有可能是我不认识的）(韩国产gal)
+- 作为游戏和诗歌的世界（Ren'Py）
+- Fortissimo FA（Unity/也有可能是其他引擎，不好识别）
+- SummerPocketsRB（自研定制引擎->LucaSystem）
+- Vampires` Melody（Unity）
+- 彼方的她-Aliya（Unity）
+- 我的妖狐妹妹（SVN）->（kirikiri2变体）
+- 以及WEBGal的工程文件
+
 # V1.0.2 更新内容（2026/6/26）
 
 **新功能：游戏置顶 & 右键菜单**
