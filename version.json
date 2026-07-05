@@ -1,12 +1,13 @@
 {
-  "latest": "1.0.2",
+  "latest": "1.0.3",
   "history": [
     "1.0.0",
     "1.0.1",
-    "1.0.2"
+    "1.0.2",
+    "1.0.3",
   ],
   "pubDate": "2026-06-26",
-  "changelog": "【1.0.2】游戏置顶、LEGUI安装引导、原生日语注入、排序弹窗优化、修复启动卡死",
+  "changelog": "【1.0.3】增加了“更新游戏信息”按钮，增加了其他引擎的标记功能，将切换语言的文字样式对比度变高，测试更多的其他引擎的游戏",
   "downloadUrl": "https://github.com/1145141919810TONNY/Shiori-manager/releases/latest"
 }
 
