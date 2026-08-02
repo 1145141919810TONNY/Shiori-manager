@@ -5,6 +5,8 @@ Shiori引擎本体：https://github.com/1145141919810TONNY/webgalgameengine
 
 Shiori教学网页：https://1145141919810tonny.github.io/Shioriteaching/
 
+Shiori Editor（可视化编辑器）链接：https://github.com/1145141919810TONNY/Shiori-editor
+
 # 版本更新内容（2026/7/6）
 ## 管理器 V1.0.4 更新内容
 ### 新增功能
