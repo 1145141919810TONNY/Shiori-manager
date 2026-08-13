@@ -1,14 +1,15 @@
 {
-  "latest": "1.0.4",
+  "latest": "1.0.5",
   "history": [
     "1.0.0",
     "1.0.1",
     "1.0.2",
     "1.0.3",
     "1.0.4",
+    "1.0.5",
   ],
-  "pubDate": "2026-07-6",
-  "changelog": "【1.0.4】增加了游戏校检以及SHA-256校检功能",
+  "pubDate": "2026/8/13",
+  "changelog": "【1.0.5】增加了新的词库，支持游戏的重命名等功能",
   "downloadUrl": "https://github.com/1145141919810TONNY/Shiori-manager/releases/latest"
 }
 
