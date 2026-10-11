@@ -1,5 +1,5 @@
 {
-  "latest": "1.0.6",
+  "latest": "1.1.0",
   "history": [
     "1.0.0",
     "1.0.1",
@@ -8,9 +8,10 @@
     "1.0.4",
     "1.0.5",
     "1.0.6",
+    "1.1.0",
   ],
-  "pubDate": "2026/8/17",
-  "changelog": "【1.0.6】增加了新的词库，使用了月幕gal的词库等功能",
+  "pubDate": "2026/10/11",
+  "changelog": "【1.1.0】对齐了验证功能，修复以及优化了一些问题",
   "downloadUrl": "https://github.com/1145141919810TONNY/Shiori-manager/releases/latest"
 }
 
